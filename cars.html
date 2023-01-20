@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Car Rentals</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/fontawesome-free@4.7.0/css/fontawesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+<nav>
+<a href="index.html"></a>
+<div class="nav-links" id="navlinks">
+<i class="fa fa-times" onclick="hidemenu()"></i>
+<ul>
+<li><a href="index.html">HOME</a></li>
+<li><a href="cars.html">CARS</a></li>
+<li><a href="about.html">ABOUT</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+</ul>
+</div>
+<i class="fa fa-bars"  onclick="showmenu()"></i>
+</nav>
+
+
+</section>
+
+<!-----CARS----->
+<div class="small-container">
+<h2 class="title">CARS</h2>
+<div class="row">
+<div class="col-4">
+<img src="images/car6.jpeg">
+<h3>BMW 850i</h3>
+<p>$950 per day</p>
+
+</div>
+<div class="col-4">
+<img src="images/car1.jpeg">
+<h3>Mercedes G63 AMG(2019)</h3>
+<p>$1,050 per day</p>
+
+</div>
+<div class="col-4">
+<img src="images/car13.jpeg">
+<h3>Lamborghini Urus</h3>
+<p>$1,950 per day</p>
+
+</div>
+</div>
+<div class="row">
+<div class="col-4">
+<img src="images/car3.jpeg">
+<h3>Rolls Royce Cullinan</h3>
+<p>$1,500 per day</p>
+
+</div>
+</div>
+
+
+</div>
+
+
+<!-----CARS2----->
+<div class="small-container">
+<h2 class="title"></h2>
+<div class="row">
+<div class="col-4">
+<img src="images/car7.jpeg">
+<h3>BMW i8</h3>
+<p>$1,300 per day</p>
+
+</div>
+<div class="col-4">
+<img src="images/car8.jpeg">
+<h3>Toyota Camry XLE(2022)</h3>
+<p>$480 per day</p>
+
+</div>
+<div class="col-4">
+<img src="images/car9.jpeg">
+<h3>Tesla Model S</h3>
+<p>$630 per day</p>
+
+</div>
+</div>
+<div class="row">
+<div class="col-4">
+<img src="images/car14.jpeg">
+<h3>Aston Martin</h3>
+<p>$1,780 per day</p>
+
+</div>
+<div class="col-4">
+<img src="images/car12.jpeg">
+<h3>Mercedes GT43</h3>
+<p>$970 per day</p>
+
+</div>
+<div class="col-4">
+<img src="images/car11.jpeg">
+<h3>Ferrari Roma</h3>
+<p>$1,620 per day</p>
+
+</div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+<!------footer------>
+<section class="footer">
+
+<h4>ABOUT US</h4>
+
+<p>We are a car rental service established in 2013, who's goal is to satisfy<br> the need of transportation for tourists /visitors.</p>
+<div class="icons">
+<i class="fa fa-facebook"></i>
+<i class="fa fa-instagram"></i>
+<i class="fa fa-snapchat"></i>
+
+<h3>Follow Us</h3>
+<ul>
+<li>Facebook</li>
+<li>Twitter</li>
+<li>Instagram </li>
+</ul>
+</div>
+</section>
+
+
+
+
+<!------Javascript for Toggle Menu------>
+
+<script>
+var navlinks= document.getElementById("navlinks");
+functions showmenu(){
+navlinks.style.right = "0";
+}
+functions hidemenu(){
+navlinks.style.right = "-200px";
+}
+</script>
+
+
+
+
+</body>
+</html>

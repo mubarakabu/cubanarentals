@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Car Rentals</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/fontawesome-free@4.7.0/css/fontawesome.min.css">
+</head>
+<body>
+<section class="header">
+<nav>
+<a href="index.html"><img src="images/logo.img"width="125px"></a>
+<div class="nav-links" id="navlinks">
+<i class="fa fa-times" onclick="hidemenu()"></i>
+<ul>
+<li><a href="index.html">HOME</a></li>
+<li><a href="cars.html">CARS</a></li>
+<li><a href="about.html">ABOUT</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+</ul>
+</div>
+<i class="fa fa-bars"  onclick="showmenu()"></i>
+</nav>
+
+<div class="text-box">
+<h1>RIDE IN LUXURY</h1>
+<p>Why waste your time to order a ride anytime you need to go out, when you can just rent a luxury and affordable car at Cubana Car Rentals.<br> Where your comfort is our number 1 priority.</p>
+<a href="" class="hero-btn">EXPLORE</a>
+</div>
+</section>
+
+<!------service------>
+
+<section class="service">
+<h1>Services We Offer</h1>
+<p>We make sure our customers are always at their comfort zone.</p>
+
+<div class="row">
+<div class="service-col">
+<h3>Chauffeur</h3>
+<p>In case you do not want to drive around , we can have a driver at your service to drive you anywhere you want to go just for the extra cost of $150.</p>
+</div>
+<div class="service-col">
+<h3>Personal car</h3>
+<p>If you dont like to be driven around, you can rent a personal car of your choice for a certain amount of days and drive yourself to anywhere.</p>
+</div>
+<div class="service-col">
+<h3>Special Events</h3>
+<p>You can rent specific cars for events and return the cars after without having to pay the amount for a full day of renting.</p>
+</div>
+</div>
+
+
+
+</section>
+
+
+<!------locations------>
+
+<section class="locations">
+<h1>Our Locations</h1>
+<p>We are mainly located in these areas of Nigeria</p>
+
+<div class="row">
+<div class="locations-col">
+<img src="images/abuja.img">
+<div class="layer">
+<h3>ABUJA</h3>
+</div>
+</div>
+<div class="locations-col">
+<img src="images/lagos.img">
+<div class="layer">
+<h3>LAGOS</h3>
+</div>
+</div>
+<div class="locations-col">
+<img src="images/kaduna.img">
+<div class="layer">
+<h3>KADUNA</h3>
+</div>
+</div>
+</div>
+
+</section>
+
+
+<!------reviews------>
+<section class="reviews">
+
+<h1> What our Customers say </h1>
+<p>Here are some of the reviews from customer who have trusted us</p>
+
+<div class="row">
+<div class="reviews-col">
+<img src="images/khaliq.img">
+<div>
+<p>Renting a car from Cubana Car Rentals has to be one of the best decisions I've ever made. They rent out luxurious and very expensive cars for very affordable prices and that is why they are the best.</p>
+<h3>Abdulkhaliq Ojukwu</h3>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</div>
+</div>
+
+<div class="reviews-col">
+<img src="images/keana.img">
+<div>
+<p>Cubana Car rentals helped prevent me from always looking to order rides and wait for the driver when I'm in a rush. I was able to have a car of mine ofr the duration of my stay in lagos and always drive in style.</p>
+<h3>Keana Francis</h3>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-o"></i>
+</div>
+</div>
+</div>
+
+</section>
+
+
+
+<!------call to action------>
+
+<section class="cta">
+
+<h1>Rent Your Cars From Here Now</h1>
+<a href="" class="hero-btn">CONTACT Us</a>
+
+
+</section>
+
+
+<!------footer------>
+<section class="footer">
+
+<h4>ABOUT US</h4>
+
+<p>We are a car rental service established in 2013, who's goal is to satisfy<br> the need of transportation for tourists /visitors.</p>
+<div class="icons">
+<i class="fa fa-facebook"></i>
+<i class="fa fa-instagram"></i>
+<i class="fa fa-snapchat"></i>
+
+<h3>Follow Us</h3>
+<ul>
+<li>Facebook</li>
+<li>Twitter</li>
+<li>Instagram </li>
+</ul>
+</div>
+</section>
+
+
+
+
+<!------Javascript for Toggle Menu------>
+
+<script>
+var navlinks= document.getElementById("navlinks");
+functions showmenu(){
+navlinks.style.right = "0";
+}
+functions hidemenu(){
+navlinks.style.right = "-200px";
+}
+</script>
+
+
+
+
+</body>
+</html>
